@@ -9,8 +9,7 @@
 
     <TextView
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="===========MadLibs==========="
+        android:layout_height="wrap_content" android:text="===========MadLibs=========="
         android:textColor="@color/material_dynamic_primary70"
         android:textSize="25sp"
         app:layout_constraintBottom_toTopOf="@+id/guideline2"
@@ -60,7 +59,7 @@
         app:layout_constraintVertical_bias="0.0">
 
         <EditText
-            android:id="@+id/et_verb"
+            android:id="@+id/et_name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -100,43 +99,43 @@
             android:inputType="text" />
 
         <EditText
-            android:id="@+id/editTextText6"
+            android:id="@+id/et_musicArtist"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:hint="Name"
+            android:hint="Music Artist"
             android:inputType="text" />
 
         <EditText
-            android:id="@+id/editTextText7"
+            android:id="@+id/et_verb"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:hint="Name"
+            android:hint="Verb"
             android:inputType="text" />
 
         <EditText
-            android:id="@+id/editTextText8"
+            android:id="@+id/et_celebrity"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:hint="Name"
+            android:hint="Celebrity"
             android:inputType="text" />
 
         <EditText
-            android:id="@+id/editTextText9"
+            android:id="@+id/et_song"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:hint="Name"
+            android:hint="Song"
             android:inputType="text" />
 
         <EditText
-            android:id="@+id/editTextText10"
+            android:id="@+id/et_tvShow"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:hint="Name"
+            android:hint="Tv Show"
             android:inputType="text" />
 
         <Button
