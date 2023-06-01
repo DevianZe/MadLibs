@@ -2,6 +2,7 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/DarkForest_bg"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
@@ -10,8 +11,8 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" android:text="===========MadLibs=========="
-        android:textColor="@color/material_dynamic_primary70"
         android:textSize="25sp"
+        android:textColor="@color/DarkForest_txt_title"
         app:layout_constraintBottom_toTopOf="@+id/guideline2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -42,14 +43,12 @@
         android:id="@+id/guideline5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:backgroundTint="@color/material_dynamic_primary70"
         android:orientation="vertical"
         app:layout_constraintGuide_begin="415dp" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:background="@color/material_dynamic_primary90"
         android:orientation="vertical"
         app:layout_constraintBottom_toTopOf="@+id/guideline3"
         app:layout_constraintEnd_toStartOf="@+id/guideline5"
@@ -59,18 +58,20 @@
         app:layout_constraintVertical_bias="0.0">
 
         <EditText
-            android:id="@+id/et_name"
+            android:id="@+id/et_time"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:hint="Name"
-            android:inputType="text" />
+            android:textColorHint="@color/DarkForest_txt_hint"
+            android:hint="Late Time"
+            android:inputType="time" />
 
         <EditText
             android:id="@+id/et_noun"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
+            android:textColorHint="@color/DarkForest_txt_hint"
             android:hint="Noun"
             android:inputType="text" />
 
@@ -79,6 +80,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
+            android:textColorHint="@color/DarkForest_txt_hint"
             android:hint="Adjective"
             android:inputType="text" />
 
@@ -87,6 +89,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
+            android:textColorHint="@color/DarkForest_txt_hint"
             android:hint="Color"
             android:inputType="text" />
 
@@ -95,6 +98,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
+            android:textColorHint="@color/DarkForest_txt_hint"
             android:hint="Fruit"
             android:inputType="text" />
 
@@ -103,6 +107,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
+            android:textColorHint="@color/DarkForest_txt_hint"
             android:hint="Music Artist"
             android:inputType="text" />
 
@@ -112,6 +117,7 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:hint="Verb"
+            android:textColorHint="@color/DarkForest_txt_hint"
             android:inputType="text" />
 
         <EditText
@@ -119,6 +125,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
+            android:textColorHint="@color/DarkForest_txt_hint"
             android:hint="Celebrity"
             android:inputType="text" />
 
@@ -127,6 +134,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
+            android:textColorHint="@color/DarkForest_txt_hint"
             android:hint="Song"
             android:inputType="text" />
 
@@ -135,6 +143,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
+            android:textColorHint="@color/DarkForest_txt_hint"
             android:hint="Tv Show"
             android:inputType="text" />
 
@@ -142,7 +151,7 @@
             android:id="@+id/btn_generate"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:backgroundTint="@color/material_dynamic_primary70"
+            android:backgroundTint="@color/DarkForest_bg_btn"
             android:text="Generate" />
     </LinearLayout>
 

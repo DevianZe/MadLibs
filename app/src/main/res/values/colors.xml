@@ -2,4 +2,10 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="DarkForest_txt_title">#81D4FA</color>
+    <color name="DarkForest_bg">#1976D2</color>
+    <color name="DarkForest_bg_btn">#303F9F</color>
+    <color name="DarkForest_txt_btn">#FFFFFFFF</color>
+    <color name="DarkForest_txt_hint">#FFFFFFFF</color>
+
 </resources>
